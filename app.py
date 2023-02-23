@@ -8,7 +8,7 @@ def hello():
 message = os.environ.get('message')
 
 # Display the message
-print('Hello ' + message)
+    return "Hello" + message
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
